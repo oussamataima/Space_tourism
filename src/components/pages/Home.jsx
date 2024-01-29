@@ -9,15 +9,15 @@ const Home = () => {
         <picture>
           <source
             media="(min-width:1024px)"
-            srcSet="../../../public/home/background-home-desktop.jpg"
+            srcSet="/public/home/background-home-desktop.jpg"
           />
           <source
             media="(min-width:768px)"
-            srcSet="../../../public/home/background-home-tablet.jpg"
+            srcSet="/public/home/background-home-tablet.jpg"
           />
           <img
             className="w-full h-full"
-            src="../../../public/home/background-home-mobile.jpg"
+            src="/public/home/background-home-mobile.jpg"
           />
         </picture>
       </div>

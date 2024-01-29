@@ -24,15 +24,15 @@ const Destination = () => {
         <picture>
           <source
             media="(min-width:1024px)"
-            srcSet="../../../public/destination/background-destination-desktop.jpg"
+            srcSet="/public/destination/background-destination-desktop.jpg"
           />
           <source
             media="(min-width:768px)"
-            srcSet="../../../public/destination/background-destination-tablet.jpg"
+            srcSet="/public/destination/background-destination-tablet.jpg"
           />
           <img
             className="w-full h-full"
-            src="../../../public/destination/background-destination-mobile.jpg"
+            src="/public/destination/background-destination-mobile.jpg"
           />
         </picture>
       </div>
