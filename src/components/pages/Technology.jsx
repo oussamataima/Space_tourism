@@ -25,15 +25,15 @@ const Technology = () => {
         <picture>
           <source
             media="(min-width:1024px)"
-            srcSet="/public/technology/background-technology-desktop.jpg"
+            srcSet="/technology/background-technology-desktop.jpg"
           />
           <source
             media="(min-width:768px)"
-            srcSet="/public/technology/background-technology-tablet.jpg"
+            srcSet="/technology/background-technology-tablet.jpg"
           />
           <img
             className="w-full h-full"
-            src="/public/technology/background-technology-mobile.jpg"
+            src="/technology/background-technology-mobile.jpg"
           />
         </picture>
       </div>
