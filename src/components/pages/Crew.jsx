@@ -32,15 +32,15 @@ const Crew = () => {
         <picture>
           <source
             media="(min-width:1024px)"
-            srcSet="../../../public/crew/background-crew-desktop.jpg"
+            srcSet="/crew/background-crew-desktop.jpg"
           />
           <source
             media="(min-width:768px)"
-            srcSet="../../../public/crew/background-crew-tablet.jpg"
+            srcSet="/crew/background-crew-tablet.jpg"
           />
           <img
             className="w-full h-full"
-            src="../../../public/crew/background-crew-mobile.jpg"
+            src="/crew/background-crew-mobile.jpg"
           />
         </picture>
       </div>
