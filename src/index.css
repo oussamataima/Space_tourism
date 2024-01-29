@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-darkBlue text-[#fff] leading-normal;
+
+}
+.nav {
+  @apply   font-barlowCon tracking-[2.7px] uppercase
+}
+.nav ul {
+  @apply bg_navbar flex  h-[96px] px-14 py-[40px] md:gap-9 xl:px-[124px] xl:w-[830px]
+}
+
+
+.bg_navbar {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.77px);
+  -webkit-backdrop-filter: blur(40.77px);
+}
+nav span[aria-hidden="true"] {
+  @apply font-bold mr-3;
+}
+
+.border_bottom {
+  border-bottom: 3px solid white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #bbb; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #666; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
