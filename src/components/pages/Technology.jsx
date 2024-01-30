@@ -63,7 +63,7 @@ const Technology = () => {
               })}
             </div>
           </div>
-          <div className="mr-[130px] ml-20">
+          <div className="xl:mr-[130px] xl:ml-20">
             <h2 className="text-[14px] sm:text-[16px] text-softBlue text-center xl:text-start tracking-[2.36px] font-barlowCon uppercase">
               THE TERMINOLOGY…
             </h2>
