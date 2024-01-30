@@ -17,7 +17,7 @@ const Header = () => {
         <img src="/logo.svg" />
       </div>
       <nav className="nav hidden  md:block relative">
-        <ul className="">
+        <ul >
           <li
             className={
               location.pathname === "/" ? "mb-[-35px] border_bottom" : ""
@@ -76,36 +76,36 @@ const Header = () => {
       {isOpen && (
         <nav className="block md:hidden">
           <ul className="w-[68vw] h-screen backdrop-blur-xl pt-[118px] pl-8 flex flex-col gap-8">
-            <li className="">
-              <a className="  " href="#">
-                <span className="" aria-hidden="true">
+            <li >
+              <Link to="/">
+                <span  aria-hidden="true">
                   00
                 </span>
-              </a>
+              </Link>
               Home
             </li>
-            <li className="">
-              <a href="#">
-                <span className="" aria-hidden="true">
+            <li >
+              <Link to="/destination">
+                <span  aria-hidden="true">
                   01
                 </span>
-              </a>
+              </Link>
               Destination
             </li>
-            <li className="">
-              <a href="#">
-                <span className="" aria-hidden="true">
+            <li >
+              <Link to="/crew">
+                <span  aria-hidden="true">
                   02
                 </span>
-              </a>
+              </Link>
               Crew
             </li>
-            <li className="">
-              <a href="#">
-                <span className="" aria-hidden="true">
+            <li >
+              <Link to="/technology">
+                <span  aria-hidden="true">
                   03
                 </span>
-              </a>
+              </Link>
               Technology
             </li>
           </ul>
